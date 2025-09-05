@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jPdqvcVASY8=",
+  "dgSpecHash": "ab8+sN24+Uc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kaiqs\\Desktop\\ASPNET\\aulas\\ControleDeContatos\\ControleDeContatos.csproj",
+  "projectFilePath": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\ControleDeContatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kaiqs\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\kaiqs\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
