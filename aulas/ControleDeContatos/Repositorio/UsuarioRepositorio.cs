@@ -32,6 +32,7 @@ namespace ControleDeContatos.Repositorio
         {
             // Gravar no Banco de Dados
             usuario.DataCadastro = DateTime.Now;
+            usuario.SetSenhaHash(); // Hash da senha
 
             _context.Usuarios.Add(usuario);
             _context.SaveChanges();

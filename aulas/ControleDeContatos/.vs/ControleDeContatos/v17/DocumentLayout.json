@@ -3,60 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\filters\\paginauserlogado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:filters\\paginauserlogado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\filters\\paginauseradmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:filters\\paginauseradmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\controllers\\restritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:controllers\\restritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\views\\restrito\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:views\\restrito\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\controledecontatos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:controledecontatos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\views\\shared\\components\\menu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:views\\shared\\components\\menu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\viewcomponents\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:viewcomponents\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\helpers\\criptografia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:helpers\\criptografia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,184 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Views\\Restrito\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Restrito\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Views\\Restrito\\Index.cshtml",
-              "RelativeToolTip": "Views\\Restrito\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-02T14:47:34.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RestritoController.cs",
-              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Controllers\\RestritoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RestritoController.cs",
-              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Controllers\\RestritoController.cs",
-              "RelativeToolTip": "Controllers\\RestritoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UsuarioModel.cs",
+              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Models\\UsuarioModel.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioModel.cs",
+              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Models\\UsuarioModel.cs",
+              "RelativeToolTip": "Models\\UsuarioModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T14:46:15.27Z",
+              "WhenOpened": "2025-10-02T15:19:19.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PaginaUserAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Filters\\PaginaUserAdmin.cs",
-              "RelativeDocumentMoniker": "Filters\\PaginaUserAdmin.cs",
-              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Filters\\PaginaUserAdmin.cs",
-              "RelativeToolTip": "Filters\\PaginaUserAdmin.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Title": "UsuarioRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Repositorio\\UsuarioRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\UsuarioRepositorio.cs",
+              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Repositorio\\UsuarioRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\UsuarioRepositorio.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T14:43:07.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAYwEwAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T14:41:38.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ContatoController.cs",
-              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Controllers\\ContatoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ContatoController.cs",
-              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Controllers\\ContatoController.cs",
-              "RelativeToolTip": "Controllers\\ContatoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T14:41:30.534Z",
+              "WhenOpened": "2025-10-02T15:18:51.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Title": "Criptografia.cs",
+              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Helpers\\Criptografia.cs",
+              "RelativeDocumentMoniker": "Helpers\\Criptografia.cs",
+              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Helpers\\Criptografia.cs",
+              "RelativeToolTip": "Helpers\\Criptografia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAB3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T14:41:02.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PaginaUserLogado.cs",
-              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Filters\\PaginaUserLogado.cs",
-              "RelativeDocumentMoniker": "Filters\\PaginaUserLogado.cs",
-              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Filters\\PaginaUserLogado.cs",
-              "RelativeToolTip": "Filters\\PaginaUserLogado.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T14:29:25.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\ViewComponents\\Menu.cs",
-              "RelativeDocumentMoniker": "ViewComponents\\Menu.cs",
-              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\ViewComponents\\Menu.cs",
-              "RelativeToolTip": "ViewComponents\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T14:05:30.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ControleDeContatos",
-              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\ControleDeContatos.csproj",
-              "RelativeDocumentMoniker": "ControleDeContatos.csproj",
-              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\ControleDeContatos.csproj",
-              "RelativeToolTip": "ControleDeContatos.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-02T14:05:03.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Views\\Shared\\Components\\Menu\\Default.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Menu\\Default.cshtml",
-              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Views\\Shared\\Components\\Menu\\Default.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Components\\Menu\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-02T14:02:28.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-02T14:00:44.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T13:56:13.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-02T14:48:07.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T13:52:39.314Z",
+              "WhenOpened": "2025-10-02T15:14:56.057Z",
               "EditorCaption": ""
             }
           ]
