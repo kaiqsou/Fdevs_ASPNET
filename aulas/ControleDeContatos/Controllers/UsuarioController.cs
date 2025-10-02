@@ -25,6 +25,19 @@ namespace ControleDeContatos.Controllers
             return View();
         }
 
+        public IActionResult Editar(int id)
+        {
+            UsuarioModel usuario = _usuarioRepositorio.ListarPorId(id);
+            return View(usuario);
+        }
+
+        public IActionResult ExcluirConfirmacao(int id)
+        {
+            UsuarioModel usuario = _usuarioRepositorio.ListarPorId(id);
+
+            return View(usuario);
+        }
+
         // POSTS
         [HttpPost]
         public IActionResult Criar(UsuarioModel usuario)
@@ -50,6 +63,66 @@ namespace ControleDeContatos.Controllers
                 // Mensagem de erro Temporária
                 TempData["MensagemErro"] = $"Não foi possível cadastrar o usuário! Tente novamente. Detalhe do erro: {erro.Message}";
 
+                return RedirectToAction("Index");
+            }
+        }
+
+        [HttpPost]
+        public IActionResult Alterar(UsuarioSemSenhaModel usuarioSemSenhaModel)
+        {
+            try
+            {
+                UsuarioModel usuario = null;
+
+                if (ModelState.IsValid)
+                {
+                    usuario = new UsuarioModel()
+                    {
+                        Id = usuarioSemSenhaModel.Id,
+                        Nome = usuarioSemSenhaModel.Nome,
+                        Login = usuarioSemSenhaModel.Login,
+                        Email = usuarioSemSenhaModel.Email,
+                        Perfil = usuarioSemSenhaModel.Perfil
+                    };
+
+                    _usuarioRepositorio.Atualizar(usuario);
+
+                    TempData["MensagemSucesso"] = "Usuário atualizado com sucesso!";
+
+                    return RedirectToAction("Index");
+                }
+
+                // Forçando retornar para a view 'Editar'
+                return View("Editar", usuario);
+            }
+            catch (Exception erro)
+            {
+                TempData["MensagemErro"] = $"Erro ao atualizar o usuário! Detalhe do erro: {erro.Message}";
+
+                return RedirectToAction("Index");
+            }
+        }
+
+        public IActionResult Excluir(int id)
+        {
+            try
+            {
+                bool apagado = _usuarioRepositorio.Excluir(id);
+
+                if (apagado)
+                {
+                    TempData["MensagemSucesso"] = "Usuário excluído com sucesso!";
+                }
+                else
+                {
+                    TempData["MensagemErro"] = "Erro na exclusão de usuário!";
+                }
+
+                return RedirectToAction("Index");
+            }
+            catch (Exception erro)
+            {
+                TempData["MensagemErro"] = $"Erro na exclusão de usuário! Detalhes do erro: {erro.Message}";
                 return RedirectToAction("Index");
             }
         }
