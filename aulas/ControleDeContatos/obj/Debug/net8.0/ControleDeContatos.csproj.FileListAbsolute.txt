@@ -145,3 +145,4 @@ C:\Users\kaiqs\Desktop\Fdevs_ASPNET\aulas\ControleDeContatos\obj\Debug\net8.0\re
 C:\Users\kaiqs\Desktop\Fdevs_ASPNET\aulas\ControleDeContatos\obj\Debug\net8.0\ControleDeContatos.pdb
 C:\Users\kaiqs\Desktop\Fdevs_ASPNET\aulas\ControleDeContatos\obj\Debug\net8.0\ControleDeContatos.genruntimeconfig.cache
 C:\Users\kaiqs\Desktop\Fdevs_ASPNET\aulas\ControleDeContatos\obj\Debug\net8.0\ref\ControleDeContatos.dll
+C:\Users\kaiqs\Desktop\Fdevs_ASPNET\aulas\ControleDeContatos\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutDeslogado.cshtml.rz.scp.css
