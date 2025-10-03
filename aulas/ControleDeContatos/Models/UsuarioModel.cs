@@ -20,7 +20,14 @@ namespace ControleDeContatos.Models
         public string Senha { get; set; }
         public DateTime DataCadastro { get; set; }
         public DateTime? DataAtualizacao { get; set; }
-        public bool SenhaValida(string senha) { return Senha == senha.GerarHash(); }
-        public void SetSenhaHash() { Senha = Senha.GerarHash(); }
+        public bool SenhaValida(string senha) { return Senha == senha; }
+        public void SetSenhaHash() { Senha = Senha; }
+        public string GerarNovaSenha() 
+        { 
+            string novaSenha = Guid.NewGuid().ToString().Substring(0, 8); // posição 0 até a 8
+            Senha = novaSenha.GerarHash();
+
+            return novaSenha;
+        } 
     }
 }

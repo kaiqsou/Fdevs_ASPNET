@@ -25,5 +25,10 @@
         @Html.ValidationMessageFor(x => x.Senha)
     </div>
 
+    <p class="mb-4 text-sm mx-auto">
+        Esqueceu a sua senha?
+        <a asp-action="RedefinirSenha" asp-controller="Login" class="text-primary text-gradient font-weight-bold">Redefinir a senha</a>
+    </p>
+
     <button type="submit" class="btn btn-primary btn-block">Entrar</button>
 </form>
