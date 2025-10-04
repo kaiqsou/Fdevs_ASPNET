@@ -67,6 +67,30 @@ namespace ControleDeContatos.Repositorio
             return usuarioDb;
         }
 
+        public UsuarioModel AlterarSenha(AlterarSenhaModel alterarSenhaModel)
+        {
+            // Procura o usuário pelo id fornecido na model AlterarSenha no momento da alteração
+            UsuarioModel usuarioDb = ListarPorId(alterarSenhaModel.Id);
+
+            // Verifica se existe o usuário no banco
+            if (usuarioDb == null) throw new Exception("Houve um erro na atualização da senha: usuário não encontrado");
+
+            // Utiliza o método de verificação da senha válida para comparar as senhas - a senhaAtual da página de alterar senha e a senha do usuário
+            if (!usuarioDb.SenhaValida(alterarSenhaModel.SenhaAtual)) throw new Exception("Senha atual não confere");
+
+            // Não permite alterar a senha atual para a mesma senha
+            if (usuarioDb.SenhaValida(alterarSenhaModel.NovaSenha)) throw new Exception("A nova senha deve ser diferente da senha atual");
+
+            // Se não ocorrer nenhum dos erros acima, atualiza a senha
+            usuarioDb.SetNovaSenha(alterarSenhaModel.NovaSenha);
+            usuarioDb.DataAtualizacao = DateTime.Now; 
+
+            _context.Usuarios.Update(usuarioDb);
+            _context.SaveChanges();
+
+            return usuarioDb;
+        }
+
         public bool Excluir(int id)
         {
             UsuarioModel usuarioDb = ListarPorId(id);

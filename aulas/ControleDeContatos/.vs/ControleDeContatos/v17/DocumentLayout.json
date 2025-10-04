@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\controllers\\alterarsenhacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:controllers\\alterarsenhacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\views\\alterarsenha\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:views\\alterarsenha\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\repositorio\\contatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:repositorio\\contatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\models\\contatomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:models\\contatomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\repositorio\\icontatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:repositorio\\icontatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\views\\contato\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:views\\contato\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\helpers\\sessao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:helpers\\sessao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\views\\contato\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:views\\contato\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\views\\contato\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:views\\contato\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|c:\\users\\kaiqs\\desktop\\fdevs_aspnet\\aulas\\controledecontatos\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A9A563BE-5BD0-4F74-9628-FC6D7105541C}|ControleDeContatos.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +54,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Views\\AlterarSenha\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\AlterarSenha\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Views\\AlterarSenha\\Index.cshtml",
-              "RelativeToolTip": "Views\\AlterarSenha\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Views\\Contato\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contato\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Views\\Contato\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Contato\\Editar.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBIAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-04T00:48:36.045Z",
+              "WhenOpened": "2025-10-04T02:51:27.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sessao.cs",
+              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Helpers\\Sessao.cs",
+              "RelativeDocumentMoniker": "Helpers\\Sessao.cs",
+              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Helpers\\Sessao.cs",
+              "RelativeToolTip": "Helpers\\Sessao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T02:50:59.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContatoModel.cs",
+              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Models\\ContatoModel.cs",
+              "RelativeDocumentMoniker": "Models\\ContatoModel.cs",
+              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Models\\ContatoModel.cs",
+              "RelativeToolTip": "Models\\ContatoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T02:24:12.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Views\\Contato\\Criar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contato\\Criar.cshtml",
+              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Views\\Contato\\Criar.cshtml",
+              "RelativeToolTip": "Views\\Contato\\Criar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-04T02:18:47.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Views\\Contato\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contato\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Views\\Contato\\Index.cshtml",
+              "RelativeToolTip": "Views\\Contato\\Index.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwC4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-04T02:05:46.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-04T02:04:56.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContatoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Repositorio\\ContatoRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\ContatoRepositorio.cs",
+              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Repositorio\\ContatoRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\ContatoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T01:58:46.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IContatoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Repositorio\\IContatoRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\IContatoRepositorio.cs",
+              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Repositorio\\IContatoRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\IContatoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T01:58:16.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AlterarSenhaController.cs",
-              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Controllers\\AlterarSenhaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AlterarSenhaController.cs",
-              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Controllers\\AlterarSenhaController.cs",
-              "RelativeToolTip": "Controllers\\AlterarSenhaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
+              "Title": "ContatoController.cs",
+              "DocumentMoniker": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Controllers\\ContatoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContatoController.cs",
+              "ToolTip": "C:\\Users\\kaiqs\\Desktop\\Fdevs_ASPNET\\aulas\\ControleDeContatos\\Controllers\\ContatoController.cs",
+              "RelativeToolTip": "Controllers\\ContatoController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAuwG8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T00:48:18.997Z",
+              "WhenOpened": "2025-10-04T01:57:58.793Z",
               "EditorCaption": ""
             }
           ]

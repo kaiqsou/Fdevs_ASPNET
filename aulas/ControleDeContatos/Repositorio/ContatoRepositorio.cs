@@ -1,4 +1,5 @@
 ﻿using ControleDeContatos.Data;
+using ControleDeContatos.Helpers;
 using ControleDeContatos.Models;
 
 namespace ControleDeContatos.Repositorio
@@ -8,7 +9,7 @@ namespace ControleDeContatos.Repositorio
         private readonly BancoContext _context;
         public ContatoRepositorio(BancoContext bancoContext)
         {
-            this._context = bancoContext;
+            _context = bancoContext;
         }
             
         public ContatoModel ListarPorId(int id)
@@ -17,10 +18,10 @@ namespace ControleDeContatos.Repositorio
             return _context.Contatos.FirstOrDefault(x => x.Id == id);        
         }   
 
-        public List<ContatoModel> BuscarTodos()
+        public List<ContatoModel> BuscarTodos(int usuarioId)
         {
-            // carrega tudo que está na tabela de contatos
-            return _context.Contatos.ToList(); 
+            // carrega tudo que está na tabela de contatos, diferentemente para cada id de usuário
+            return _context.Contatos.Where(x => x.UsuarioId == usuarioId).ToList(); 
         }
 
         public ContatoModel Adicionar(ContatoModel contato)
@@ -38,7 +39,7 @@ namespace ControleDeContatos.Repositorio
             ContatoModel contatoDb = ListarPorId(contato.Id);
 
             // Enviando mensagem de erro, caso retorne Nulo a pesquisa por Id
-            if (contatoDb == null) throw new System.Exception("Houve um erro na atualização do contato!");
+            if (contatoDb == null) throw new Exception("Houve um erro na atualização do contato!");
 
             // Alterando os dados originais para os dados enviados via POST
             contatoDb.Nome = contato.Nome;
@@ -56,7 +57,7 @@ namespace ControleDeContatos.Repositorio
         {
             ContatoModel contatoDb = ListarPorId(id);
 
-            if (contatoDb == null) throw new System.Exception("Houve um erro na exclusão do contato!");
+            if (contatoDb == null) throw new Exception("Houve um erro na exclusão do contato!");
 
             // Excluindo contato no Banco de Dados
             _context.Contatos.Remove(contatoDb);

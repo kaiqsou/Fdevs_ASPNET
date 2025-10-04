@@ -1,0 +1,2 @@
+Add-Migration CriandoVinculoUsuarioNaContato -Context BancoContext
+Update-Database -Context BancoContext

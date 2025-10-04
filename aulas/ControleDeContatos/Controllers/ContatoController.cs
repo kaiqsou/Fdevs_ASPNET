@@ -1,4 +1,5 @@
 ﻿using ControleDeContatos.Filters;
+using ControleDeContatos.Helpers;
 using ControleDeContatos.Models;
 using ControleDeContatos.Repositorio;
 using Microsoft.AspNetCore.Mvc;
@@ -9,15 +10,18 @@ namespace ControleDeContatos.Controllers
     public class ContatoController : Controller
     {
         private readonly IContatoRepositorio _contatoRepositorio;
-        public ContatoController(IContatoRepositorio contatoRepositorio)
+        private readonly ISessao _sessao;
+        public ContatoController(IContatoRepositorio contatoRepositorio, ISessao sessao)
         {
             _contatoRepositorio = contatoRepositorio;
+            _sessao = sessao;
         }
 
         // GETS
         public IActionResult Index()
         {
-            List<ContatoModel> contatos = _contatoRepositorio.BuscarTodos();
+            UsuarioModel userLogado = _sessao.BuscarSessao();
+            List<ContatoModel> contatos = _contatoRepositorio.BuscarTodos(userLogado.Id);
 
             return View(contatos);
         }
@@ -74,6 +78,9 @@ namespace ControleDeContatos.Controllers
                 // Se as informações da Model forem válidas, cria o contato
                 if (ModelState.IsValid)
                 {
+                    UsuarioModel userLogado = _sessao.BuscarSessao();
+                    contato.UsuarioId = userLogado.Id;
+
                     _contatoRepositorio.Adicionar(contato);
 
                     // Mensagem de sucesso Temporária
@@ -101,6 +108,9 @@ namespace ControleDeContatos.Controllers
             {
                 if (ModelState.IsValid)
                 {
+                    UsuarioModel userLogado = _sessao.BuscarSessao();
+                    contato.UsuarioId = userLogado.Id;
+
                     _contatoRepositorio.Atualizar(contato);
 
                     TempData["MensagemSucesso"] = "Contato atualizado com sucesso!";
