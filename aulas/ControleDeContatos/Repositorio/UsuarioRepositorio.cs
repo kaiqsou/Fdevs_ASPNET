@@ -1,5 +1,6 @@
 ﻿using ControleDeContatos.Data;
 using ControleDeContatos.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ControleDeContatos.Repositorio
 {
@@ -29,8 +30,8 @@ namespace ControleDeContatos.Repositorio
 
         public List<UsuarioModel> BuscarTodos()
         {
-            // carrega tudo que está na tabela de contatos
-            return _context.Usuarios.ToList(); 
+            // carrega tudo que está na tabela de contatos - incluindo todos os contatos para exibição, graças ao 'virtual' na model
+            return _context.Usuarios.Include(x => x.Contatos).ToList(); 
         }
 
         public UsuarioModel Adicionar(UsuarioModel usuario)

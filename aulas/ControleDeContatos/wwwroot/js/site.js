@@ -6,6 +6,21 @@
 $(document).ready(function () { 
     getDataTable('#table-contatos');
     getDataTable('#table-usuarios');
+
+    $('.btn-total-contatos').click(function () {
+        // ao clicar no botão (this), pega o atributo usuario-id
+        var usuarioId = $(this).attr('usuario-id');
+
+        $.ajax({
+            type: 'GET',
+            url: '/Usuario/ListarContatosPorUsuarioId/' + usuarioId, success: function (result) {
+                $("#listaContatosUsuario").html(result);
+                var myModal = new bootstrap.Modal(document.getElementById('modalContatosUsuario'));
+                myModal.show();
+                getDataTable('#table-contatos-usuario');
+            }
+        });   
+    });
 })
 
 function getDataTable(id)           
