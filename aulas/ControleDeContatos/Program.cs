@@ -15,6 +15,7 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>(); // q
 builder.Services.AddScoped<IContatoRepositorio, ContatoRepositorio>(); // injeção de dependencia - sempre que a interface for invocada, usará tudo do ContatoRepositorio
 builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 builder.Services.AddScoped<ISessao, Sessao>();
+builder.Services.AddScoped<IEmail, Email>();
 
 builder.Services.AddSession(o =>
 {
